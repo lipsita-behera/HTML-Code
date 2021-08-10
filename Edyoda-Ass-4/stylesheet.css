@@ -1,0 +1,96 @@
+body {
+    margin: 2% 2% 0% 2%;
+    font-family: 'Dosis', sans-serif;
+    color: #121213;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ #banner{
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    height: 85vh;
+    background-size: cover;
+    background-position: top 10% center;
+    background-image:   linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+}
+
+ #header
+ {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;   
+    position: relative;
+    top: 4.5%;
+    margin: 0% 5%;
+}
+
+#flex-menu-bar {
+    flex-grow: 9;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#NUKK {
+    background-color: #e47312;
+    flex-grow: 1;
+    position: absolute;
+    height: 40%;
+}
+
+#get-quote-bar {
+    flex-grow: 0.25;
+    width: 6vw;
+    background-color: #e47312;
+    font-size: 8px;
+}
+
+.menu-padding {
+    padding: 3% 3%;
+}
+
+.menu-item {
+    padding: 0% 1%;   
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+}
+
+.wrapper{
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    width: 3.5vw;
+    border-left: 2px solid white;
+    transition: 1sec;
+    transform:translateY(0%);
+}
+
+.pages {
+    left: 68.4vw;
+}
+
+.home {
+    left: 46.3vw;
+}
+
+.projects {
+    left: 50.8vw;
+}
+
+.about {
+    left: 55.4vw;
+}
+.services {
+    left: 59.8vw;
+}
+
+.blog {
+    left: 64.4vw;
+}
+
+.wrapper:hover {
+   border-color: orangered;
+   transform: translateY(0,10%);
+}
